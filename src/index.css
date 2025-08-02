@@ -1,1 +1,15 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Press Start 2P', monospace;
+  background-color: #0f172a;
+  color: #f8fafc;
+  background-image: url("../public/iduKJM.jpg");
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: 20% 30%;
+  transform: scale()
+}
